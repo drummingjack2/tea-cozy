@@ -43,6 +43,9 @@ a{
   justify-content: center;
   align-items: center;
 }
-#mission h2, #mission h4{
+#banner{
   background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
