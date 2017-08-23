@@ -19,7 +19,9 @@ a{
 
 #header{
   height: 69px;
-  /*position: fixed; ADD ONCE COMPLETE!!!*/
+  position: fixed;
+  z-index: 100;
+  background-color: black;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +37,8 @@ a{
 }
 
 #mission{
+  position: relative;
+  top: 70px;
   background-image: url("../background.jpg");
   height: 700px;
   width: 1200px;
