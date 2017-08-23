@@ -39,4 +39,10 @@ a{
   background-image: url("../background.jpg");
   height: 700px;
   width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#mission h2, #mission h4{
+  background-color: black;
 }
