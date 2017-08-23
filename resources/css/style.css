@@ -92,6 +92,8 @@ a{
 }
 #locations h2{
   padding-top: 60px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 #locations .container{
 justify-content: center;
@@ -106,11 +108,11 @@ justify-content: center;
   width: 300px;
   margin-right: 20px;
   margin-left: 20px;
-  margin-top: 15px;
 }
 .location h3, span{
   /*remove margin to evenly distribute the "space-between"*/
   margin: 0px;
+  opacity: 1;
 }
 
 #contact{
