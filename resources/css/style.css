@@ -1,51 +1,12 @@
 body{
   background-color: black;
+  display: flex;
+  flex-direction: column;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 a{
   color: inherit;
-}
-.container{
-  display: flex;
-}
-/*All content contained in the 69px tall header: logo and nav links*/
-#header{
-  justify-content: space-between;
-  align-items: center;
-  height: 69px;
-  width: 100%;
-  border-bottom: 1px solid seashell;
-}
-#header img{
-  padding-left: 10px;
-  height: 50px;
-}
-#header nav{
-  display: inline-flex;
-}
-#header a{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-/*Content contained in the Mission div: background img and banner/text*/
-#mission{
-  background-image: url("../background.jpg");
-  height: 700px;
-  width: 1200px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#banner{
-  background-color: black;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
