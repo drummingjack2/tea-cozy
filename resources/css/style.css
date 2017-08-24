@@ -13,6 +13,7 @@ a{
   color: inherit;
 }
 
+/*Generic flex container to avoid declaring display as flex every time*/
 .container{
   display: flex;
 }
@@ -46,6 +47,7 @@ a{
   justify-content: center;
   align-items: center;
 }
+/*Black background div accross background image*/
 #banner{
   background-color: black;
   width: 100%;
@@ -71,11 +73,13 @@ a{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/*Storefront is the container that holds the five tea picture/caption flex containers*/
 #storefront{
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 60px;
 }
+/*Item is the flex container for each indivitdual tea: contains an img and caption span*/
 .item{
   display: flex;
   flex-direction: column;
